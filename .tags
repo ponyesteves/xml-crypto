@@ -1,0 +1,130 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+.replace	lib/utils.js	/^        .replace(\/([&<"\\r\\n\\t])\/g, function(str, item){$/;"	r
+.replace	lib/utils.js	/^        .replace(\/([&<>\\r])\/g, function(str, item){$/;"	r
+0	lib/signed-xml.js	/^  if (this.options.idAttribute) this.idAttributes.splice(0, 0, this.options.idAttribute);$/;"	r
+CanonicalizationAlgorithms	lib/signed-xml.js	/^SignedXml.CanonicalizationAlgorithms = {$/;"	r
+EnvelopedSignature	lib/enveloped-signature.js	/^function EnvelopedSignature() {$/;"	r
+ExclusiveCanonicalization	lib/exclusive-canonicalization.js	/^function ExclusiveCanonicalization() {$/;"	r
+ExclusiveCanonicalizationWithComments	lib/exclusive-canonicalization.js	/^function ExclusiveCanonicalizationWithComments() {$/;"	r
+FileKeyInfo	lib/signed-xml.js	/^function FileKeyInfo(file) {$/;"	r
+HMACSHA1	lib/signed-xml.js	/^function HMACSHA1() {$/;"	r
+HashAlgorithms	lib/signed-xml.js	/^SignedXml.HashAlgorithms = {$/;"	r
+RSASHA1	lib/signed-xml.js	/^function RSASHA1() {$/;"	r
+RSASHA256	lib/signed-xml.js	/^function RSASHA256() {$/;"	r
+RSASHA512	lib/signed-xml.js	/^function RSASHA512() {$/;"	r
+SHA1	lib/signed-xml.js	/^function SHA1() {$/;"	r
+SHA256	lib/signed-xml.js	/^function SHA256() {$/;"	r
+SHA512	lib/signed-xml.js	/^function SHA512() {$/;"	r
+SignatureAlgorithms	lib/signed-xml.js	/^SignedXml.SignatureAlgorithms = {$/;"	r
+SignedXml	lib/signed-xml.js	/^function SignedXml(idMode, options) {$/;"	r
+a	lib/exclusive-canonicalization.js	/^  var a, i, attr$/;"	r
+a	lib/exclusive-canonicalization.js	/^  var a, i, p, attr$/;"	r
+action	lib/signed-xml.js	/^ * - `location` {{ reference: String, action: String }}$/;"	r
+addReference	lib/signed-xml.js	/^SignedXml.prototype.addReference = function(xpath, transforms, digestAlgorithm, uri, digestValue, inclusiveNamespacesPrefixList, isEmptyUri) {$/;"	r
+attr	lib/signed-xml.js	/^  var attr$/;"	r
+attrCompare	lib/exclusive-canonicalization.js	/^ExclusiveCanonicalization.prototype.attrCompare = function(a,b) {$/;"	r
+attrEqualsExplicitly	lib/utils.js	/^function attrEqualsExplicitly(attr, localName, namespace) {$/;"	r
+attrEqualsImplicitly	lib/utils.js	/^function attrEqualsImplicitly(attr, localName, namespace, node) {$/;"	r
+attrListToRender	lib/exclusive-canonicalization.js	/^    , attrListToRender = [];$/;"	r
+attrs	lib/signed-xml.js	/^      attrs,$/;"	r
+break	lib/exclusive-canonicalization.js	/^        break;$/;"	r
+checkSignature	lib/signed-xml.js	/^SignedXml.prototype.checkSignature = function(xml) {$/;"	r
+computeSignature	lib/signed-xml.js	/^SignedXml.prototype.computeSignature = function(xml, opts) {$/;"	r
+createReferences	lib/signed-xml.js	/^SignedXml.prototype.createReferences = function(doc, prefix) {$/;"	r
+createSignature	lib/signed-xml.js	/^SignedXml.prototype.createSignature = function(signedInfo, prefix) {$/;"	r
+createSignedInfo	lib/signed-xml.js	/^SignedXml.prototype.createSignedInfo = function(doc, prefix) {$/;"	r
+currentPrefix	lib/signed-xml.js	/^      currentPrefix;$/;"	r
+currentPrefix	lib/signed-xml.js	/^  var currentPrefix$/;"	r
+defaultNs	lib/exclusive-canonicalization.js	/^  var res = this.processInner(node, [], defaultNs, defaultNsForPrefix, inclusiveNamespacesPrefixList, options);$/;"	r
+defaultNsForPrefix	lib/signed-xml.js	/^SignedXml.defaultNsForPrefix = {$/;"	r
+ds	lib/signed-xml.js	/^  ds: 'http:\/\/www.w3.org\/2000\/09\/xmldsig#'$/;"	r
+elem	lib/signed-xml.js	/^    var elem = [];$/;"	r
+else	example/example.js	/^else$/;"	r
+encodeSpecialCharactersInAttribute	lib/utils.js	/^function encodeSpecialCharactersInAttribute(attributeValue){$/;"	r
+encodeSpecialCharactersInText	lib/utils.js	/^function encodeSpecialCharactersInText(text){$/;"	r
+ensureHasId	lib/signed-xml.js	/^SignedXml.prototype.ensureHasId = function(node) {$/;"	r
+findAttr	lib/utils.js	/^function findAttr(node, localName, namespace) {$/;"	r
+findCanonicalizationAlgorithm	lib/signed-xml.js	/^SignedXml.prototype.findCanonicalizationAlgorithm = function(name) {$/;"	r
+findChilds	lib/utils.js	/^function findChilds(node, localName, namespace) {$/;"	r
+findFirst	lib/utils.js	/^function findFirst(doc, xpath) {  $/;"	r
+findHashAlgorithm	lib/signed-xml.js	/^SignedXml.prototype.findHashAlgorithm = function(name) {$/;"	r
+findSignatureAlgorithm	lib/signed-xml.js	/^SignedXml.prototype.findSignatureAlgorithm = function(name) {$/;"	r
+getAlgorithmName	lib/enveloped-signature.js	/^EnvelopedSignature.prototype.getAlgorithmName = function () {$/;"	r
+getAlgorithmName	lib/exclusive-canonicalization.js	/^ExclusiveCanonicalization.prototype.getAlgorithmName = function() {$/;"	r
+getAlgorithmName	lib/exclusive-canonicalization.js	/^ExclusiveCanonicalizationWithComments.prototype.getAlgorithmName = function() {$/;"	r
+getAlgorithmName	lib/signed-xml.js	/^    this.getAlgorithmName = function() {$/;"	r
+getAlgorithmName	lib/signed-xml.js	/^  this.getAlgorithmName = function() {$/;"	r
+getCanonXml	lib/signed-xml.js	/^SignedXml.prototype.getCanonXml = function(transforms, node, options) {$/;"	r
+getHash	lib/signed-xml.js	/^  this.getHash = function(xml) {$/;"	r
+getKey	lib/signed-xml.js	/^  this.getKey = function(keyInfo) {$/;"	r
+getKeyInfo	lib/signed-xml.js	/^  this.getKeyInfo = function(key, prefix) {$/;"	r
+getKeyInfo	lib/signed-xml.js	/^SignedXml.prototype.getKeyInfo = function(prefix) {$/;"	r
+getOriginalXmlWithIds	lib/signed-xml.js	/^SignedXml.prototype.getOriginalXmlWithIds = function() {$/;"	r
+getSignature	lib/signed-xml.js	/^    this.getSignature = function(signedInfo, signingKey) {$/;"	r
+getSignature	lib/signed-xml.js	/^  this.getSignature = function(signedInfo, signingKey) {$/;"	r
+getSignatureXml	lib/signed-xml.js	/^SignedXml.prototype.getSignatureXml = function() {$/;"	r
+getSignedXml	lib/signed-xml.js	/^SignedXml.prototype.getSignedXml = function() {$/;"	r
+i	lib/exclusive-canonicalization.js	/^  var i, pfxCopy$/;"	r
+id	lib/signed-xml.js	/^  this.id = 0$/;"	r
+idAttributes	lib/signed-xml.js	/^  this.idAttributes = [ 'Id', 'ID' ];$/;"	r
+if	lib/exclusive-canonicalization.js	/^      if (options && options.isC14n && attr.localName === 'xmlns'){$/;"	r
+if	lib/signed-xml.js	/^  if(this.canonicalizationAlgorithm == 'http:\/\/www.w3.org\/TR\/2001\/REC-xml-c14n-20010315'){$/;"	r
+includeComments	lib/exclusive-canonicalization.js	/^	this.includeComments = false;$/;"	r
+includeComments	lib/exclusive-canonicalization.js	/^	this.includeComments = true;$/;"	r
+inclusiveNamespacesPrefixList	lib/signed-xml.js	/^  var inclusiveNamespacesPrefixList;$/;"	r
+isAfterDocument	lib/exclusive-canonicalization.js	/^        isAfterDocument = true;$/;"	r
+isBeforeDocument	lib/exclusive-canonicalization.js	/^        isBeforeDocument = true;$/;"	r
+key	lib/signed-xml.js	/^    this.verifySignature = function(str, key, signatureValue) {$/;"	r
+key	lib/signed-xml.js	/^  this.verifySignature = function(str, key, signatureValue) {$/;"	r
+loadReference	lib/signed-xml.js	/^SignedXml.prototype.loadReference = function(ref) {$/;"	r
+loadSignature	lib/signed-xml.js	/^SignedXml.prototype.loadSignature = function(signatureNode) {$/;"	r
+localName	lib/utils.js	/^  	if (attrEqualsExplicitly(attr, localName, namespace) || attrEqualsImplicitly(attr, localName, namespace, node)) {  		  	$/;"	r
+localName	lib/utils.js	/^function attrEqualsExplicitly(attr, localName, namespace) {$/;"	r
+localName	lib/utils.js	/^function attrEqualsImplicitly(attr, localName, namespace, node) {$/;"	r
+localName	lib/utils.js	/^function findAttr(node, localName, namespace) {$/;"	r
+localName	lib/utils.js	/^function findChilds(node, localName, namespace) {$/;"	r
+location	lib/signed-xml.js	/^      location,$/;"	r
+newDefaultNs	lib/exclusive-canonicalization.js	/^      res.push(' xmlns="', newDefaultNs, '"');$/;"	r
+node	lib/signed-xml.js	/^SignedXml.prototype.getCanonXml = function(transforms, node, options) {$/;"	r
+nsCompare	lib/exclusive-canonicalization.js	/^ExclusiveCanonicalization.prototype.nsCompare = function(a,b) {$/;"	r
+nsListToRender	lib/exclusive-canonicalization.js	/^    , nsListToRender = []$/;"	r
+options	lib/signed-xml.js	/^    options = {defaultNs: 'xmlns:ns0="http:\/\/cfe.dgi.gub.uy"'} \/\/TODO: agrego esta atributo para las firmas con c14n inclusiva..esto hay que revisarlo y mejorarlo$/;"	r
+options	lib/signed-xml.js	/^  var options = {} \/\/ @ponyesteves$/;"	r
+pfxCopy	lib/exclusive-canonicalization.js	/^    res.push(this.processInner(node.childNodes[i], pfxCopy, ns.newDefaultNs, defaultNsForPrefix, inclusiveNamespacesPrefixList, options));$/;"	r
+prefix	lib/signed-xml.js	/^	prefix = '';$/;"	r
+prefix	lib/signed-xml.js	/^      prefix,$/;"	r
+prefixesInScope	lib/exclusive-canonicalization.js	/^    , ns = this.renderNs(node, prefixesInScope, defaultNs, defaultNsForPrefix, inclusiveNamespacesPrefixList, options)$/;"	r
+prefixesInScope	lib/exclusive-canonicalization.js	/^ExclusiveCanonicalization.prototype.processInner = function(node, prefixesInScope, defaultNs, defaultNsForPrefix, inclusiveNamespacesPrefixList, options) {$/;"	r
+prefixesInScope	lib/exclusive-canonicalization.js	/^ExclusiveCanonicalization.prototype.renderNs = function(node, prefixesInScope, defaultNs, defaultNsForPrefix, inclusiveNamespacesPrefixList, options) {$/;"	r
+process	lib/enveloped-signature.js	/^EnvelopedSignature.prototype.process = function (node) {$/;"	r
+process	lib/exclusive-canonicalization.js	/^ExclusiveCanonicalization.prototype.process = function(node, options) {$/;"	r
+processInner	lib/exclusive-canonicalization.js	/^ExclusiveCanonicalization.prototype.processInner = function(node, prefixesInScope, defaultNs, defaultNsForPrefix, inclusiveNamespacesPrefixList, options) {$/;"	r
+references	lib/signed-xml.js	/^  this.references = []$/;"	r
+renderAttrs	lib/exclusive-canonicalization.js	/^ExclusiveCanonicalization.prototype.renderAttrs = function(node, defaultNS) {$/;"	r
+renderComment	lib/exclusive-canonicalization.js	/^ExclusiveCanonicalization.prototype.renderComment = function (node) {$/;"	r
+renderNs	lib/exclusive-canonicalization.js	/^ExclusiveCanonicalization.prototype.renderNs = function(node, prefixesInScope, defaultNs, defaultNsForPrefix, inclusiveNamespacesPrefixList, options) {$/;"	r
+res	lib/exclusive-canonicalization.js	/^    , res = ["<", node.tagName, ns.rendered, this.renderAttrs(node, ns.newDefaultNs), ">"];$/;"	r
+res	lib/exclusive-canonicalization.js	/^    , res = []$/;"	r
+res	lib/utils.js	/^  var res = []$/;"	r
+signXml	example/example.js	/^function signXml(xml, xpath, key, dest)$/;"	r
+signatureAttrs	lib/signed-xml.js	/^      signatureAttrs = [],$/;"	r
+signatureValue	lib/signed-xml.js	/^    var res = verifier.verify(key, signatureValue, 'base64')$/;"	r
+transforms	lib/signed-xml.js	/^  this.addReference(null, transforms, digestAlgo, utils.findAttr(ref, "URI").value, digestValue, inclusiveNamespacesPrefixList, false)$/;"	r
+transforms	lib/signed-xml.js	/^  var transforms = []$/;"	r
+transforms	lib/signed-xml.js	/^SignedXml.prototype.addReference = function(xpath, transforms, digestAlgorithm, uri, digestValue, inclusiveNamespacesPrefixList, isEmptyUri) {$/;"	r
+validActions	lib/signed-xml.js	/^  var validActions = ["append", "prepend", "before", "after"];$/;"	r
+validateReferences	lib/signed-xml.js	/^SignedXml.prototype.validateReferences = function(doc) {$/;"	r
+validateSignatureValue	lib/signed-xml.js	/^SignedXml.prototype.validateSignatureValue = function() {$/;"	r
+validateXml	example/example.js	/^function validateXml(xml, key)$/;"	r
+validationErrors	lib/signed-xml.js	/^  this.validationErrors = []$/;"	r
+verifySignature	lib/signed-xml.js	/^    this.verifySignature = function(str, key, signatureValue) {$/;"	r
+verifySignature	lib/signed-xml.js	/^  this.verifySignature = function(str, key, signatureValue) {$/;"	r
+xmlNsAttr	lib/signed-xml.js	/^  var xmlNsAttr = 'xmlns'$/;"	r
+xml_special_to_encoded_attribute	lib/utils.js	/^var xml_special_to_encoded_attribute = {$/;"	r
+xml_special_to_encoded_text	lib/utils.js	/^var xml_special_to_encoded_text = {$/;"	r
+xpath	example/example.js	/^function signXml(xml, xpath, key, dest)$/;"	r
