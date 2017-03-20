@@ -56,7 +56,6 @@ module.exports = {
   </Reference>
 </SignedInfo>
     <SignatureValue>oAgaQqqYKpyJ+M/zKaSQj0RCTGea4bscx6fhj9D1ZdUNfBF9VXCZdwvApRjMaE89p44eenVkuJdKNqQWxYI+z8iVGa0O14NdiqGB5RvAasvj2XNsflue3SqBk0PSmKAbOPgQcc2wFmIdWtUTbUlQeYJNkpIS0r1yA1yNfIIY4HbxVqv9O8WV7MDUE1f7yho6QgwxBZVnlHRa6JbwHXAX+kPuOBgwK9GC3IOqaiHwzYVJL2kSZZSwIDx8usvBERQYpUKB5iQI75BdX9sNkMlm6Jj2G8kj2xWgYl5TWB8K0UuF1N8CzGo8JtVNtIiOhMJqv81v2Se0AAsmEqdxTqf/RA==</SignatureValue><KeyInfo><X509Data><X509IssuerSerial><X509IssuerName>C=UY, O="Administraci\C3\B3n Nacional de Correos", CN=Correo Uruguayo - CA</X509IssuerName><X509SerialNumber>6614220063213481499544123309412860796549623697</X509SerialNumber></X509IssuerSerial></X509Data></KeyInfo></Signature></ns0:CFE>`)
-    console.log(sig.validationErrors)
     test.ok(sigIsValid)
     test.done()
   },
